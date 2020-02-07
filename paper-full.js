@@ -1490,6 +1490,7 @@ var LinkedPoint = Point.extend({
 		this._setter = setter;
 	},
 
+	
 	_set: function(x, y, _dontNotify) {
 		this._x = x;
 		this._y = y;
