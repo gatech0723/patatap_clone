@@ -598,6 +598,7 @@ statics: {
 	}
 }});
 
+	
 var Emitter = {
 	on: function(type, func) {
 		if (typeof type !== 'string') {
