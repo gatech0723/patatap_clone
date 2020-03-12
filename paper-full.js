@@ -217,7 +217,6 @@ var Base = new function() {
 				return ctor && (ctor === Object || ctor === Base
 						|| ctor.name === 'Object');
 			},
-
 			pick: function(a, b) {
 				return a !== undefined ? a : b;
 			},
