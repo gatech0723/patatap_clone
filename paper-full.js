@@ -231,6 +231,7 @@ var Base = new function() {
 if (typeof module !== 'undefined')
 	module.exports = Base;
 
+	
 Base.inject({
 	enumerable: false,
 
