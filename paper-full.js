@@ -76,7 +76,6 @@ var Base = new function() {
 			}
 			return bind;
 		};
-
 	function inject(dest, src, enumerable, beans, preserve) {
 		var beansNames = {};
 
