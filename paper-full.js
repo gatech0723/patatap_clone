@@ -57,6 +57,7 @@ var Base = new function() {
 			}
 		},
 
+	    
 		set = Object.assign || function(dst) {
 			for (var i = 1, l = arguments.length; i < l; i++) {
 				var src = arguments[i];
