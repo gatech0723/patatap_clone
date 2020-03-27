@@ -68,7 +68,6 @@ var Base = new function() {
 			}
 			return dst;
 		},
-
 		each = function(obj, iter, bind) {
 			if (obj) {
 				var desc = describe(obj, 'length');
