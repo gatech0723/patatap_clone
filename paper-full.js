@@ -107,6 +107,7 @@ var Base = new function() {
 				}
 				define(dest, name, res);
 			}
+			
 		}
 		if (src) {
 			for (var name in src) {
