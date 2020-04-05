@@ -78,7 +78,6 @@ var Base = new function() {
 		};
 	function inject(dest, src, enumerable, beans, preserve) {
 		var beansNames = {};
-
 		function field(name, val) {
 			val = val || (val = describe(src, name))
 					&& (val.get ? val : val.value);
