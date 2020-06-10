@@ -30,7 +30,6 @@
  *
  */
 
-
 var paper = function(self, undefined) {
 
 self = self || require('./node/self.js');
