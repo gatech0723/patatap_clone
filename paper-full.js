@@ -36,7 +36,6 @@ self = self || require('./node/self.js');
 var window = self.window,
 	document = self.document;
 
-	
 var Base = new function() {
 	var hidden = /^(statics|enumerable|beans|preserve)$/,
 		array = [],
