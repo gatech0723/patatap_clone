@@ -32,6 +32,7 @@
 
 var paper = function(self, undefined) {
 	
+	
 self = self || require('./node/self.js');
 var window = self.window,
 	document = self.document;
